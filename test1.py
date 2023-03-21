@@ -12,7 +12,7 @@ import subprocess
 output_ts = "temp.ts"
 output_path = 'D:/leoyang/app/m3u8/'
 # m3u8 url
-url = 'https://pri-cdn-tx.xiaoeknow.com/appzBbFCNAm1880/private_index/1671761697awjDJQ.m3u8?sign=0f9c46d9f309c03ee99ad649279f0852&t=641928d5'
+url = 'ttps://pri-cdn-tx.xiaoeknow.com/appzBbFCNAm1880/private_index/1672031192sn56HN.m3u8?sign=0eb4e9e46b3d2fc34b933a2b28ac7c02&t=64196ace'
 plist = m3u8.load(url)
 key_url = plist.keys[0].absolute_uri + '&uid=u_640e935553be0_NaRrZ4fb9z'
 print("[key_url] " + key_url)
@@ -20,9 +20,13 @@ response = requests.get(key_url)
 if(response.status_code != 200):
     print('getKeyError')
     exit()
-    
 key = response.content
-iv = b'0' * 16 # 偏移量
+
+# 保存key
+with open('key','wb') as k:
+    k.write(key)
+
+iv = b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01'
 aes = AES.new(key, AES.MODE_CBC, iv)
 
 def download_ts():
@@ -31,10 +35,11 @@ def download_ts():
     # download ts list
     with open(output_ts, "wb") as f:
         for uri in urilist:
-            v_url = f'https://c-vod.hw-cdn.xiaoeknow.com/2919df88vodtranscq1252524126/ee335786243791577233882899/drm/{uri}&sign=1a53e57248b633e9954f5428529c7074&t=6419d195&us=gcNfgeefXb'
+            v_url = f'https://c-vod.hw-cdn.xiaoeknow.com/2919df88vodtranscq1252524126/c214e83f243791575997103873/drm/{uri}&sign=bc0b0cc1d388d14ace5e674e29380c06&t=6419f4cc&us=oXNGkiNAZy'
             print('download: ' + v_url)
-            r = requests.get(v_url, stream=True)
+            r = requests.get(v_url)
             f.write(aes.decrypt(r.content))
+            f.write(r.content)
             # time.sleep(1)
             break
     
