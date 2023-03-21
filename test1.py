@@ -11,8 +11,8 @@ ts_url = 'https://c-vod.hw-cdn.xiaoeknow.com/2919df88vodtranscq1252524126/f0401e
 
 '''
 t.key.buffer, t.iv.buffer
-
 AES-128
+self.demuxer.decrypter.key / new Uint8Array(self.demuxer.decrypter.key)
 '''
 key = bytearray((219, 167, 178, 77, 80, 156, 20, 53, 206, 215, 24, 246, 34, 113, 105, 67))
 iv = b'\x00' * 16

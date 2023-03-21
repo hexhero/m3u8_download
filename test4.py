@@ -14,8 +14,12 @@ for b in key_byte:
     # 使用int()函数转换字节为数字，并将结果存储到列表中
     result.append(int(b))
 
+import numpy as np
+
+r = np.array(result, dtype=np.uint8)
+
 # 输出转换后的结果
-print(result)  # [1, 2, 3, 4]
+print(r)  # [1, 2, 3, 4]
 
 # [102, 39, 85, 13, 26, 29, 49, 84, 46, 53, 150, 251, 10, 54, 71, 42] 
 # [19, 120, 99, 57, 42, 120, 8, 103, 27, 0, 163, 200, 104, 83, 119, 117]
