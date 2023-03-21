@@ -14,16 +14,16 @@ output_path = 'D:/leoyang/app/m3u8/'
 # m3u8 url
 url = 'https://pri-cdn-tx.xiaoeknow.com/appzBbFCNAm1880/private_index/1671761697awjDJQ.m3u8?sign=0f9c46d9f309c03ee99ad649279f0852&t=641928d5'
 plist = m3u8.load(url)
-key_url = plist.keys[0].absolute_uri + '&uid=u_640e935553be0_NaRrZ4fb9z'
-print("[key_url] " + key_url)
+# key_url = plist.keys[0].absolute_uri + '&uid=u_640e935553be0_NaRrZ4fb9z'
+# print("[key_url] " + key_url)
 
-response = requests.get(key_url)
-if(response.status_code != 200):
-    print('getKeyError')
-    exit()
-    
-key = response.content
+# response = requests.get(key_url)
+# if(response.status_code != 200):
+#     print('getKeyError')
+#     exit()   
+# key = response.content
 
+key = bytearray((19, 120, 99, 57, 42, 120, 8, 103, 27, 0, 163, 200, 104, 83, 119, 117))
 iv = b'\x00' * 16 # 偏移量
 aes = AES.new(key, AES.MODE_CBC, iv)
 
