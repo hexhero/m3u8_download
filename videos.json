@@ -1,0 +1,59 @@
+{
+    "零基础学中医":{
+        "《中医哲学基础》第一讲：中医学的整体观" : {
+            "name": "《中医哲学基础》第一讲：中医学的整体观",
+            "url": "https://pri-cdn-tx.xiaoeknow.com/appzBbFCNAm1880/private_index/1671689723dHWtZQ.m3u8?sign=086f0cd777d7e24fdecebf8a8d815783&t=64428ca6",
+            "ts_url": "https://c-vod.hw-cdn.xiaoeknow.com/2919df88vodtranscq1252524126/c214e83f243791575997103873/drm/v.f421220_0.ts?start=0&end=353455&type=mpegts&sign=159c885e3922682a040093ee305b0407&t=64433566&us=WgEGifVZeA",
+            "key": [195, 43, 125, 241, 83, 116, 226, 252, 58, 86, 177, 4, 76, 132, 145, 40],
+            "output_ts": "ts/1-1.ts",
+            "output_path": "video/1/1.mp4",
+            "download": false
+        },
+        "《中医哲学基础》第二讲：中医学的辨证论治观" : {
+            "name": "《中医哲学基础》第二讲：中医学的辨证论治观",
+            "url":"https://pri-cdn-tx.xiaoeknow.com/appzBbFCNAm1880/private_index/1671689765lJNLhv.m3u8?sign=454452cb21077c8b03ce92e77cc7ce8c&t=644296b5",
+            "ts_url": "https://c-vod.hw-cdn.xiaoeknow.com/2919df88vodtranscq1252524126/ee246ed5243791577233878220/drm/v.f421220_0.ts?start=0&end=353455&type=mpegts&sign=1515a00415960284f65da20579d984cc&t=64433f75&us=gZBxUkFmxU",
+            "key":[16, 166, 25, 224, 110, 33, 195, 44, 143, 153, 121, 126, 150, 9, 234, 127],
+            "output_ts": "ts/1-2.ts",
+            "output_path": "video/1/2.mp4",
+            "download": false
+        },
+        "《中医哲学基础》第三讲：阴阳学说的形成" : {
+            "name": "《中医哲学基础》第三讲：阴阳学说的形成",
+            "url":"https://pri-cdn-tx.xiaoeknow.com/appzBbFCNAm1880/private_index/1671689946N1za34.m3u8?sign=99bebf516d7780666bcf3616241e5de4&t=64429ade",
+            "ts_url": "https://c-vod.hw-cdn.xiaoeknow.com/2919df88vodtranscq1252524126/eb62bc3b243791577233718467/drm/v.f421220_0.ts?start=0&end=354207&type=mpegts&sign=d0b9b45ef16bb8493638d07e615eb8c6&t=6443439e&us=HsEbyOPEAE",
+            "key": [147, 243, 199, 12, 99, 179, 143, 248, 101, 111, 30, 33, 39, 200, 222, 78],
+            "output_ts": "ts/1-3.ts",
+            "output_path": "video/1/3.mp4",
+            "download": false
+        },
+        "《中医哲学基础》第四讲：阴阳的特性" : {
+            "name": "《中医哲学基础》第四讲：阴阳的特性",
+            "url":"https://pri-cdn-tx.xiaoeknow.com/appzBbFCNAm1880/private_index/1671689873adEvef.m3u8?sign=e2516f0e9d6eefb6a6c4c48164bee21a&t=64437e56",
+            "ts_url": "https://c-vod.hw-cdn.xiaoeknow.com/2919df88vodtranscq1252524126/c214cebd243791575997103277/drm/v.f421220_0.ts?start=0&end=351951&type=mpegts&sign=b0a7635f6bdd05684d9bc575d4956996&t=64442716&us=uqizACrDGj",
+            "key": [221, 163, 55, 189, 66, 229, 156, 148, 24, 192, 114, 121, 99, 30, 115, 34],
+            "output_ts": "ts/1-4.ts",
+            "output_path": "video/1/4.mp4",
+            "download": true
+        },
+        "《中医哲学基础》第五讲：阴阳的关系" : {
+            "name": "《中医哲学基础》第五讲：阴阳的关系",
+            "url":"https://pri-cdn-tx.xiaoeknow.com/appzBbFCNAm1880/private_index/1671689907iiuoPI.m3u8?sign=e13961d8c66dad372eed1ef8657d0713&t=644383fa",
+            "ts_url": "https://c-vod.hw-cdn.xiaoeknow.com/2919df88vodtranscq1252524126/eb62b7f7243791577233718364/drm/v.f421220_0.ts?start=0&end=353455&type=mpegts&sign=28e231acd4c1beb2a6128fe76b680184&t=64442cba&us=ZTmXLYkYwD",
+            "key": [160, 220, 42, 93, 123, 152, 16, 146, 244, 136, 122, 152, 134, 245, 61, 20],
+            "output_ts": "ts/1-5.ts",
+            "output_path": "video/1/5.mp4",
+            "download": true
+        },
+        "《中医哲学基础》第六讲：阴阳学说在中医学中的应用（一）" : {
+            "name": "《中医哲学基础》第五讲：阴阳的关系",
+            "url":"https://pri-cdn-tx.xiaoeknow.com/appzBbFCNAm1880/private_index/1671690022TjAMXq.m3u8?sign=243bd8b955c206113d27364b7f5ce138&t=644384be",
+            "ts_url": "https://c-vod.hw-cdn.xiaoeknow.com/2919df88vodtranscq1252524126/db0a2b60243791577233010032/drm/v.f421220_0.ts?start=0&end=357583&type=mpegts&sign=ef38a7531c9f2e317cef310ee77ac8c4&t=64442d7e&us=aLQnqrSPqW",
+            "key": [220, 144, 109, 225, 135, 130, 76, 81, 202, 154, 20, 67, 129, 102, 1, 126],
+            "output_ts": "ts/1-6.ts",
+            "output_path": "video/1/6.mp4",
+            "download": true
+        }
+        
+    }
+}
